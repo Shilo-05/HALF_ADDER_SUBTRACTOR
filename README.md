@@ -64,9 +64,11 @@ Figure -02 HALF Subtractor
 5.	For different input combinations generate the timing diagram.
 
 
+
 **Program:**
+**Half Adder**
 ```
-Half Adder
+
 module Exp_3HA (a,b,Sum,Carry);
 
 input a,b;
@@ -77,6 +79,9 @@ assign Carry= (a&b);
 
 endmodule
 ```
+
+**Half Subtractor**
+
 ```
 Half Subtractor
 module Exp_3HS (a,b, diff,borr);
@@ -92,15 +97,23 @@ endmodule
 ```
 
 **RTL Schematic**
+**Half Adder**
+
 ![image](https://github.com/user-attachments/assets/7356f67f-d81d-4315-913e-4b85845dae6b)
 
+
+
+**Half Subtractor**
 ![image](https://github.com/user-attachments/assets/cf0ceead-046e-4d4b-9646-11274f61c0a0)
 
 
 **Output/TIMING Waveform**
 
+**Half Adder**
 ![image](https://github.com/user-attachments/assets/34c46381-4857-4e10-9d81-559f2defc73f)
 
+
+**Half Subtractor**
 ![image](https://github.com/user-attachments/assets/b1378edf-b325-4138-9bd0-6d3604090b41)
 
 **Result:**
